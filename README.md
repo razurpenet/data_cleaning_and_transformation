@@ -16,9 +16,9 @@ log.txt
 
 ## Schema
 
-task: The task performed by the executed function
-status: The execution status
-trackerID: The executionID used to track these functions
-serverregion: The location of the server on which the said function was executed
-timestamp: The time the function was executed
+task: The task performed by the executed function<br>
+status: The execution status<br>
+trackerID: The executionID used to track these functions<br>
+serverregion: The location of the server on which the said function was executed<br>
+timestamp: The time the function was executed<br>
 server: The IP address of the server on which the said function was executed
