@@ -15,13 +15,7 @@ Git
 log.txt
 
 ## Schema
-<table>
-<thead>task</thead><thead>status</thead><thead>trackerID</thead><thead>serverregion</thead><thead>timestamp</thead>
 
-</table>
-
-task;status;trackerID;serverregion;timestamp;server
-Description
 task: The task performed by the executed function
 status: The execution status
 trackerID: The executionID used to track these functions
