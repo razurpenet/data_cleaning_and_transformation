@@ -15,12 +15,16 @@ Git
 log.txt
 
 ## Schema
+<table>
+<thead>task</thead><thead>status</thead><thead>trackerID</thead><thead>serverregion</thead><thead>timestamp</thead>
 
-#   Column        Non-Null Count  Dtype 
----  ------        --------------  ----- 
- 0   task          1000 non-null   object
- 1   status        1000 non-null   object
- 2   trackerID     1000 non-null   int64 
- 3   serverregion  1000 non-null   object
- 4   timestamp     1000 non-null   int64 
- 5   server        1000 non-null   object
+</table>
+
+task;status;trackerID;serverregion;timestamp;server
+Description
+task: The task performed by the executed function
+status: The execution status
+trackerID: The executionID used to track these functions
+serverregion: The location of the server on which the said function was executed
+timestamp: The time the function was executed
+server: The IP address of the server on which the said function was executed
